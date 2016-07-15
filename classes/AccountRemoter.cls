@@ -1,7 +1,7 @@
 
 public class AccountRemoters
 {
-    global String accountName { get; set; }
+    private String accountName { get; set; }
     global static Account account { get; set; }
     private AccountRemoter() { } // empty constructor
     
